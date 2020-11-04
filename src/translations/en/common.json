@@ -1,0 +1,158 @@
+{
+     "admin": {
+          "usersManagement": "Users Management",
+          "moviesManagement": "Movies Management",
+          "revenueManagement": "Revenue Management",
+          "ticketsManagement": "Tickets Management",
+
+          "addUser": "Add User",
+          "editUser": "Edit User",
+          "addMovie": "Add Movie",
+          "editMovie": "Edit Movie",
+
+          "id": "Id",
+          "name": "Name",
+          "email": "Email",
+          "password": "Password",
+          "phone": "Phone",
+          "region": "Region",
+          "birthday": "Birthday",
+          "gender": "Gender",
+          "action": "Action",
+          "image": "Image",
+          "ratings": "Ratings",
+          "time": "Time",
+          "producer": "Producer",
+          "type": "Type",
+          "actor": "Actor",
+          "releaseDate": "ReleaseDate",
+          "dayBuy": "Day Buy",
+          "movieMoney": "Movie Money",
+          "movieFood": "Movie Food",
+          "total": "Total",
+          "movieName": "Movie Name",
+          "movieCinema": "Movie Cinema",
+          "timeSet": "Time Set",
+          "edit": "Edit",
+          "remove": "Remove",
+
+          "confirmUser": "Are you sure remove this user?",
+          "confirmMovie": "Are you sure remove this movie?",
+          "confirmTicket": "Are you sure remove this ticket?",
+
+          "male": "Male",
+          "female": "Female",
+
+          "hcm": "Ho Chi Minh",
+          "hn": "Ha Noi",
+          "dn": "Da Nang"
+     },
+
+      "authentication": {
+          "login": "Login",
+          "register": "Register",
+          "logout": "Log Out",
+          "retry": "Retry"
+     },
+     
+     "topbar": {
+          "opendoor": "Open door: 8:00 A.M - 22:00 P.M"
+     },
+     "navbar": {
+          "showtimes": "Show Time",
+          "movies": "movies",
+          "thecinema": "The Cinema",
+          "sale": "Sale",
+          "member": "Member",
+          "login": "Login",
+          "registration": "Register",
+           "person": "Personal",
+          "logout": "Log out"
+     },
+     "sale": {
+          "promotion": "Promotion & sale",
+          "info": "Discover hundreds of benefits for you right away in Metiz Cinema's Hot Deals & Offers.",
+          "promotion-atr": "Attractive promotion",
+          "see": "See more...",
+          "detail": "Watch movie metiz procession of beautiful",
+          "btn": "Details"
+     },
+     "footer": {
+          "title": "General Info",
+          "introduce": "Introduce",
+          "recruit": "Recuitment",
+          "contact": "Contact",
+          "rules": "rules",
+          "question": "Frequently asked questions",
+          "transac-terms": "Transaction terms",
+          "address": "Floors 1 Helio Center, Road 2/9, Hai Chau, Da Nang"
+     },
+     "breadcrumbs": {
+          "home": "Home",
+          "listMovie": "List Movie",
+          "listDetails": "List Details",
+          "buyTicket": "Buy ticket",
+          "chooseSeats": "Choose Seat",
+          "pays": "Pay"
+     },
+
+     "movieDetail": {
+          "minutes": "Minutes",
+          "releaseDate": "Release Date",
+          "genre": "Genre",
+          "actor": "Actor",
+          "director": "Director",
+          "title": "Showtime",
+          "continue": "Continue",
+          "pleaseChoose": "Please choose a time slot",
+          "trailer": "Trailer"
+     },
+     "buyTicket": {
+          "cinema": "Cinema:",
+          "screening": "Screening:",
+          "date": "Date:",
+          "combo": "Combo:",
+          "seat": "Seat:",
+          "total": "Total:",
+          "time": "Time:"
+     },
+     "button": {
+          "back": "Back",
+          "pay": "Pay",
+          "continue": "Continue"
+     },
+     "pays": {
+          "payments": "Payments:",
+          "fullName": "Full name:",
+          "email": "Email:",
+          "phone": "Phone:",
+          "cash": "Cash",
+          "card": "ZaloPay - ATM Card/Visa/Master",
+          "pleaseChoose": "Please choose a form of paymentt",
+          "success": "Payment Success"
+     },
+     "chooseSeat": {
+          "screen": "Screen",
+          "selected": "Selected seat",
+          "sold": "Sold",
+          "choose": "Can choose",
+          "notchoose": "Can't choose",
+          "pleaseChoose": "Please choose a seat"
+     },
+     "titleBooking": {
+          "chooseTiketFood": "CHOOSE TICKET / FOOD",
+          "chooseSeats": "CHOOSE SEAT",
+          "choosePays": "PLEASE PAY"
+     },
+     "chooseTiket": {
+          "ticketType": "Ticket Type",
+          "combo": "Combo",
+          "number": "Number",
+          "price": "Price (VNĐ)",
+          "totalItem": "Total (VNĐ)",
+          "totalAllItems": "Total",
+          "adults": "Adults",
+          "ticket2D": "2D tickets",
+          "pleaseChoose": "Please choose a ticket"
+     }
+}

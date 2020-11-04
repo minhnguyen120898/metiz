@@ -1,0 +1,23 @@
+.sale-detail {
+  &__grid {
+    height: 450px;
+    margin-left: 40px;
+    padding: 50px 0 50px 0;
+    display: flex;
+  }
+  &__feature {
+    width: 30%;
+    margin-right: 10px;
+  }
+  &__sidebar {
+    width: 70%;
+  }
+}
+
+// .news {
+//   &__img {
+//     img {
+//       width: 80%;
+//     }
+//   }
+// }

@@ -1,0 +1,1220 @@
+{
+  "sliders": [
+    {
+      "id": 1,
+      "image": "https://metiz.vn/media/slide_home/truoc_12h.jpg"
+    },
+    {
+      "id": 2,
+      "image": "https://metiz.vn/media/slide_home/980x448_11_.jpg"
+    },
+    {
+      "id": 3,
+      "image": "https://metiz.vn/media/slide_home/980wx448h_1_.jpg"
+    },
+    {
+      "id": 4,
+      "image": "https://metiz.vn/media/slide_home/rolling_banner_1__1_1.jpg"
+    },
+    {
+      "id": 5,
+      "image": "https://metiz.vn/media/slide_home/tiectrangmau.jpg"
+    }
+  ],
+  "users": [
+    {
+      "email": "vunguyen123@gmail.com",
+      "password": "$2a$10$XfdzEPc0DyEHT9xC809zpeFUwMoTycLMwCabVJx815RA6BC093OtO",
+      "name": "Vu",
+      "phone": "0966588405",
+      "address": "da nang",
+      "gender": "male",
+      "id": 3
+    },
+    {
+      "email": "nguyenvantridxx@gmail.com",
+      "password": "$2a$10$kb9TK4O13xDjDh/8flDX1uaJTsE/R6BHwkR1N6hW1MsZ4Qmt09c76",
+      "name": "Quoc",
+      "phone": "0966588405",
+      "address": "quang nam",
+      "gender": "male",
+      "id": 4
+    },
+    {
+      "email": "vunguyen123123@gmail.com",
+      "password": "$2a$10$k5gTsX25rjUzTMSwQIpaPOqL7GTiCiGzN1yJRkqjwWw5CMUt7jqbC",
+      "name": "Nguyễn Văn Trí",
+      "phone": "0966588405",
+      "address": "đà nẵng",
+      "gender": "male",
+      "id": 5
+    },
+    {
+      "email": "vunguyen1231234@gmail.com",
+      "password": "$2a$10$b2lnMXNBbyXmS3jwxct6l.kGDaJ1vPtpeBkLYLtLD4n54p0B9DRuO",
+      "name": "Nguyễn Văn Trí",
+      "phone": "0966588405",
+      "address": "đà nẵng",
+      "gender": "male",
+      "id": 6
+    },
+    {
+      "email": "nguyenvandxx@gmail.com",
+      "password": "$2a$10$7AGww7oYpzkxxk7mGValwu5efVDMOD.Ebu1AJ0cJ823e95ohHpSpi",
+      "name": "nguyenvantri",
+      "phone": "0966588405",
+      "address": "ton duc thang",
+      "gender": "male",
+      "id": 7
+    },
+    {
+      "name": "minh",
+      "email": "minh@123",
+      "phone": "123",
+      "address": "123",
+      "gender": "male",
+      "password": "MTIz",
+      "id": 8
+    },
+    {
+      "name": "123",
+      "email": "tri@123",
+      "phone": "123",
+      "address": "123",
+      "gender": "male",
+      "password": "MTIz",
+      "id": 9
+    },
+    {
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "phone": "123456789",
+      "address": "qn",
+      "gender": "male",
+      "password": "MTIz",
+      "id": 10
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "image": "https://metiz.vn/media/poster_film/118798458_153438096409823_4490167997726602995_o.jpg",
+      "name": "Ròm",
+      "ratings": 5,
+      "time": 120,
+      "producer": "",
+      "type": "Phiêu Lưu, Gia Đình, Xã Hội",
+      "actor": "Christian Berkel, Butz Ulrich Buse Director",
+      "releaseDate": "11/25/2020"
+    },
+    {
+      "id": 2,
+      "image": "https://metiz.vn/media/poster_film/rsz_the_doorman_-_payoff_poster_-_16102020.jpg",
+      "name": "Chiến binh hồi sinh",
+      "ratings": 5,
+      "time": 98,
+      "producer": "Rat Pack Filmproduktion",
+      "type": "Hành động",
+      "actor": "Christian Berkel, Butz Ulrich Buse Director",
+      "releaseDate": "10/10/2020"
+    },
+    {
+      "id": 3,
+      "image": "https://metiz.vn/media/poster_film/ti-hon-hau-dau-poster.jpg",
+      "name": "Tí hon hậu đậu",
+      "ratings": 5,
+      "time": 127,
+      "producer": "Rat Pack Filmproduktion",
+      "type": "Thần Thoại",
+      "actor": "Christian Berkel, Butz Ulrich Buse Director",
+      "releaseDate": "10/18/2020"
+    },
+    {
+      "id": 4,
+      "image": "https://metiz.vn/media/poster_film/LET-IT-SNOW-PAYOFF-POSTER-scaled.jpg",
+      "name": "Đồi tuyết máu",
+      "ratings": 5,
+      "time": 97,
+      "producer": "Rat Pack Filmproduktion",
+      "type": "Hành Động",
+      "actor": "Christian Berkel, Butz Ulrich Buse Director",
+      "releaseDate": "10/10/2020"
+    },
+    {
+      "id": 5,
+      "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
+      "name": "Xứ sở phép thuật",
+      "ratings": 5,
+      "time": 97,
+      "producer": "Rat Pack Filmproduktion",
+      "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
+      "actor": "Christian Berkel, Butz Ulrich Buse Director",
+      "releaseDate": "11/18/2020"
+    },
+    {
+      "id": 6,
+      "image": "https://metiz.vn/media/poster_film/unnamed-15882426986801405021247-crop-15882427260391238301165.jpg",
+      "name": "Tiệc trăng máu",
+      "ratings": 5,
+      "time": 120,
+      "producer": "",
+      "type": "Hài, kịch",
+      "actor": "Trung Ruồi,Nhã Phương",
+      "releaseDate": "12/21/2020"
+    },
+    {
+      "id": 7,
+      "image": "https://metiz.vn/media/poster_film/af_-_poster_1_.jpg",
+      "name": "Tay đấm mỹ",
+      "ratings": 5,
+      "time": 120,
+      "producer": "Rat Pack Filmproduktion",
+      "type": "Hành động",
+      "actor": "Rat Pack Filmproduktion",
+      "releaseDate": "10/21/2020"
+    },
+    {
+      "id": 8,
+      "image": "https://metiz.vn/media/poster_film/rsz_sputnik_-_vietnamese_poster_final_2.jpg",
+      "name": "Quái vật săn đêm",
+      "ratings": 5,
+      "time": 120,
+      "producer": "Rat Pack Filmproduktion",
+      "type": "Hành động, khoa học",
+      "actor": "Rat Pack Filmproduktion",
+      "releaseDate": "10/19/2020"
+    },
+    {
+      "id": 9,
+      "image": "https://metiz.vn/media/poster_film/af_-_poster_1_.jpg",
+      "name": "Tay đấm mỹ",
+      "ratings": 5,
+      "time": 120,
+      "producer": "Rat Pack Filmproduktion",
+      "type": "Hành động",
+      "actor": "Rat Pack Filmproduktion",
+      "releaseDate": "1/21/2021"
+    },
+    {
+      "id": 10,
+      "image": "https://metiz.vn/media/poster_film/rsz_sputnik_-_vietnamese_poster_final_2.jpg",
+      "name": "Quái vật săn đêm",
+      "ratings": 5,
+      "time": 120,
+      "producer": "Rat Pack Filmproduktion",
+      "type": "Hành động, khoa học",
+      "actor": "Rat Pack Filmproduktion",
+      "releaseDate": "2020-12-19"
+    },
+    {
+      "id": "prefix-1",
+      "name": "Chuyến Đi Nhớ Đời",
+      "image": "https://metiz.vn/media/poster_film/media_images_2020_10_06_the-golden-holiday-intl-poster-fin-091043-061020-16.jpg",
+      "time": "120",
+      "ratings": "5",
+      "producer": "Rat Pack Filmproduktion",
+      "type": "Hài Hước",
+      "actor": "Rat Pack Filmproduktion",
+      "releaseDate": "2020-11-04"
+    },
+    {
+      "id": 1604473106196,
+      "name": "ADMIN",
+      "image": "https://metiz.vn/media/poster_film/rsz_poster__nq_4.jpg",
+      "time": "120",
+      "ratings": "5",
+      "producer": "RONALDO",
+      "type": "Hài",
+      "actor": "MESSI",
+      "releaseDate": "2020-11-02"
+    },
+    {
+      "id": 1604473369719,
+      "name": "Ngạc Quỷ",
+      "image": "https://metiz.vn/media/poster_film/media_images_2020_10_06_the-golden-holiday-intl-poster-fin-091043-061020-16.jpg",
+      "time": "120",
+      "ratings": "5",
+      "producer": "RONALDO",
+      "type": "Hề",
+      "actor": "MESSI",
+      "releaseDate": "2020-11-14"
+    },
+    {
+      "id": 1604473598378,
+      "name": "TAY ĐẤM MỸ 2",
+      "image": "https://metiz.vn/media/poster_film/af_-_poster_1_.jpg",
+      "time": "119",
+      "ratings": "5",
+      "producer": "NEYMAR",
+      "type": "Hề",
+      "actor": "NEYMAR",
+      "releaseDate": "2020-12-2"
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "title": "MĂM COMBO, NHẬN NGAY QUÀ TẶNG ẤM ÁP TẠI METIZ CINEMA",
+      "info": "Mùa Giáng sinh này, bạn sẽ không còn thấy lạnh lẽo vì sẽ có những món quà cực xinh xắn và ấm ấp Metiz gửi tặng cho bạn.",
+      "image": "https://metiz.vn/media/new_offer/NOEL_METIZ_2019_GIANG_SINH_AM_AP_WEB-01.jpg"
+    },
+    {
+      "id": 2,
+      "image": "https://metiz.vn/media/new_offer/HALLOWEEN_2019_WEB-01.jpg",
+      "title": "MĂM COMBO, NHẬN NGAY QUÀ TẶNG ẤM ÁP TẠI METIZ CINEMA",
+      "info": "Mùa Giáng sinh này, bạn sẽ không còn thấy lạnh lẽo vì sẽ có những món quà cực xinh xắn và ấm ấp Metiz gửi tặng cho bạn."
+    },
+    {
+      "id": 3,
+      "title": "MĂM COMBO, NHẬN NGAY QUÀ TẶNG ẤM ÁP TẠI METIZ CINEMA",
+      "info": "Mùa Giáng sinh này, bạn sẽ không còn thấy lạnh lẽo vì sẽ có những món quà cực xinh xắn và ấm ấp Metiz gửi tặng cho bạn.",
+      "image": "https://metiz.vn/media/new_offer/20.10.2019_WEB-01.jpg"
+    },
+    {
+      "id": 4,
+      "title": "MĂM COMBO, NHẬN NGAY QUÀ TẶNG ẤM ÁP TẠI METIZ CINEMA",
+      "info": "Mùa Giáng sinh này, bạn sẽ không còn thấy lạnh lẽo vì sẽ có những món quà cực xinh xắn và ấm ấp Metiz gửi tặng cho bạn.",
+      "image": "https://metiz.vn/media/new_offer/METIZ_TRUNG_THU_2019_WEB-01.jpg"
+    },
+    {
+      "id": 5,
+      "title": "MĂM COMBO, NHẬN NGAY QUÀ TẶNG ẤM ÁP TẠI METIZ CINEMA",
+      "info": "Mùa Giáng sinh này, bạn sẽ không còn thấy lạnh lẽo vì sẽ có những món quà cực xinh xắn và ấm ấp Metiz gửi tặng cho bạn.",
+      "image": "https://metiz.vn/media/new_offer/KM_SUPER__MONDAY_MEDIA-02.jpg"
+    }
+  ],
+  "combo": [
+    {
+      "id": 1,
+      "image": "https://www.galaxycine.vn/media/2020/5/19/combo-1_1589871759174.jpg",
+      "title": "Combo 1",
+      "name": "1 ly nước, 1 bắp"
+    },
+    {
+      "id": 2,
+      "image": "https://www.galaxycine.vn/media/2020/5/19/combo-2_1589871763789.jpg",
+      "title": "Combo 2",
+      "name": "2 ly nước, 1 bắp"
+    }
+  ],
+  "cinemas": [
+    {
+      "id": 1,
+      "name": "Metiz Tân Phú",
+      "session": [
+        {
+          "id": 11,
+          "time": "17:00",
+          "seats": [
+            {
+              "id": 1,
+              "codeSeat": "A01",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 2,
+              "codeSeat": "A02",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 3,
+              "codeSeat": "A03",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 4,
+              "codeSeat": "A04",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 5,
+              "codeSeat": "A05",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 6,
+              "codeSeat": "A06",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 7,
+              "codeSeat": "A07",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 8,
+              "codeSeat": "A08",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 9,
+              "codeSeat": "A09",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 10,
+              "codeSeat": "A10",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 11,
+              "codeSeat": "A11",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 12,
+              "codeSeat": "A12",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 13,
+              "codeSeat": "A13",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 14,
+              "codeSeat": "A14",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 15,
+              "codeSeat": "A15",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 16,
+              "codeSeat": "A16",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 17,
+              "codeSeat": "A17",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 18,
+              "codeSeat": "A18",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 19,
+              "codeSeat": "A19",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 20,
+              "codeSeat": "A20",
+              "price": 75000,
+              "status": false
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "time": "19:30",
+          "seats": [
+            {
+              "id": 1,
+              "codeSeat": "A01",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 2,
+              "codeSeat": "A02",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 3,
+              "codeSeat": "A03",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 4,
+              "codeSeat": "A04",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 5,
+              "codeSeat": "A05",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 6,
+              "codeSeat": "A06",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 7,
+              "codeSeat": "A07",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 8,
+              "codeSeat": "A08",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 9,
+              "codeSeat": "A09",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 10,
+              "codeSeat": "A10",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 11,
+              "codeSeat": "A11",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 12,
+              "codeSeat": "A12",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 13,
+              "codeSeat": "A13",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 14,
+              "codeSeat": "A14",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 15,
+              "codeSeat": "A15",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 16,
+              "codeSeat": "A16",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 17,
+              "codeSeat": "A17",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 18,
+              "codeSeat": "A18",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 19,
+              "codeSeat": "A19",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 20,
+              "codeSeat": "A20",
+              "price": 75000,
+              "status": false
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "time": "20:00",
+          "seats": [
+            {
+              "id": 1,
+              "codeSeat": "A01",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 2,
+              "codeSeat": "A02",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 3,
+              "codeSeat": "A03",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 4,
+              "codeSeat": "A04",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 5,
+              "codeSeat": "A05",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 6,
+              "codeSeat": "A06",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 7,
+              "codeSeat": "A07",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 8,
+              "codeSeat": "A08",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 9,
+              "codeSeat": "A09",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 10,
+              "codeSeat": "A10",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 11,
+              "codeSeat": "A11",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 12,
+              "codeSeat": "A12",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 13,
+              "codeSeat": "A13",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 14,
+              "codeSeat": "A14",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 15,
+              "codeSeat": "A15",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 16,
+              "codeSeat": "A16",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 17,
+              "codeSeat": "A17",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 18,
+              "codeSeat": "A18",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 19,
+              "codeSeat": "A19",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 20,
+              "codeSeat": "A20",
+              "price": 75000,
+              "status": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Metiz Đà Nẵng",
+      "session": [
+        {
+          "id": 21,
+          "time": "17:30",
+          "seats": [
+            {
+              "id": 1,
+              "codeSeat": "A01",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 2,
+              "codeSeat": "A02",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 3,
+              "codeSeat": "A03",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 4,
+              "codeSeat": "A04",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 5,
+              "codeSeat": "A05",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 6,
+              "codeSeat": "A06",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 7,
+              "codeSeat": "A07",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 8,
+              "codeSeat": "A08",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 9,
+              "codeSeat": "A09",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 10,
+              "codeSeat": "A10",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 11,
+              "codeSeat": "A11",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 12,
+              "codeSeat": "A12",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 13,
+              "codeSeat": "A13",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 14,
+              "codeSeat": "A14",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 15,
+              "codeSeat": "A15",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 16,
+              "codeSeat": "A16",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 17,
+              "codeSeat": "A17",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 18,
+              "codeSeat": "A18",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 19,
+              "codeSeat": "A19",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 20,
+              "codeSeat": "A20",
+              "price": 75000,
+              "status": false
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "time": "21:00",
+          "seats": [
+            {
+              "id": 1,
+              "codeSeat": "A01",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 2,
+              "codeSeat": "A02",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 3,
+              "codeSeat": "A03",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 4,
+              "codeSeat": "A04",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 5,
+              "codeSeat": "A05",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 6,
+              "codeSeat": "A06",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 7,
+              "codeSeat": "A07",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 8,
+              "codeSeat": "A08",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 9,
+              "codeSeat": "A09",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 10,
+              "codeSeat": "A10",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 11,
+              "codeSeat": "A11",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 12,
+              "codeSeat": "A12",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 13,
+              "codeSeat": "A13",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 14,
+              "codeSeat": "A14",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 15,
+              "codeSeat": "A15",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 16,
+              "codeSeat": "A16",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 17,
+              "codeSeat": "A17",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 18,
+              "codeSeat": "A18",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 19,
+              "codeSeat": "A19",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 20,
+              "codeSeat": "A20",
+              "price": 75000,
+              "status": false
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "time": "22:00",
+          "seats": [
+            {
+              "id": 1,
+              "codeSeat": "A01",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 2,
+              "codeSeat": "A02",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 3,
+              "codeSeat": "A03",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 4,
+              "codeSeat": "A04",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 5,
+              "codeSeat": "A05",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 6,
+              "codeSeat": "A06",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 7,
+              "codeSeat": "A07",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 8,
+              "codeSeat": "A08",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 9,
+              "codeSeat": "A09",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 10,
+              "codeSeat": "A10",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 11,
+              "codeSeat": "A11",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 12,
+              "codeSeat": "A12",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 13,
+              "codeSeat": "A13",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 14,
+              "codeSeat": "A14",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 15,
+              "codeSeat": "A15",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 16,
+              "codeSeat": "A16",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 17,
+              "codeSeat": "A17",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 18,
+              "codeSeat": "A18",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 19,
+              "codeSeat": "A19",
+              "price": 75000,
+              "status": false
+            },
+            {
+              "id": 20,
+              "codeSeat": "A20",
+              "price": 75000,
+              "status": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "seats": [
+    {
+      "id": 1,
+      "codeSeat": "A01",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 2,
+      "codeSeat": "A02",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 3,
+      "codeSeat": "A03",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 4,
+      "codeSeat": "A04",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 5,
+      "codeSeat": "A05",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 6,
+      "codeSeat": "A06",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 7,
+      "codeSeat": "A07",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 8,
+      "codeSeat": "A08",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 9,
+      "codeSeat": "A09",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 10,
+      "codeSeat": "A10",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 11,
+      "codeSeat": "A11",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 12,
+      "codeSeat": "A12",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 13,
+      "codeSeat": "A13",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 14,
+      "codeSeat": "A14",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 15,
+      "codeSeat": "A15",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 16,
+      "codeSeat": "A16",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 17,
+      "codeSeat": "A17",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 18,
+      "codeSeat": "A18",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 19,
+      "codeSeat": "A19",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 20,
+      "codeSeat": "A20",
+      "price": 75000,
+      "status": false
+    }
+  ],
+  "payment": [
+    {
+      "id": 1,
+      "name": "Visa"
+    },
+    {
+      "id": 2,
+      "name": "Cash"
+    }
+  ],
+  "tickets": [
+    {
+      "payment": "visa",
+      "timeSet": "3-11-2020",
+      "movieName": "Đồi tuyết máu",
+      "movieCinema": "Metiz Tân Phú",
+      "movieTime": "20:00",
+      "movieImage": "https://metiz.vn/media/poster_film/LET-IT-SNOW-PAYOFF-POSTER-scaled.jpg",
+      "seat": [
+        "A08"
+      ],
+      "totalTicket": 45000,
+      "totalCombo1": 0,
+      "totalCombo2": 0,
+      "email": "nguyenvandxx@gmail.com",
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+.product {
+  background: url("https://metiz.vn/static/assets/websites/images/bg-session-movie.png")
+    repeat-x center;
+  padding-bottom: 30px !important;
+  &__poster {
+    width: 270px;
+    height: 385px;
+  }
+  &__img {
+    width: 100%;
+    height: 385px;
+  }
+  &__nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0; 
+    li {
+      padding: 7px 25px;
+      border: 3px solid #fff;
+      border-radius: 35px;
+      background: rgba(255, 255, 255, 0);
+      color: rgba(255, 255, 255, 0.85);
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 24px;
+      margin-right: 10px;
+    }
+  }
+  &__content {
+    color: #fff;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+  }
+  &__title {
+    font-size: 18px;
+  }
+  &__book {
+    display: block;
+    text-align: center;
+    width: 44%;
+    margin: 0 auto;
+    border-radius: 35px;
+    cursor: pointer;
+    background: #ff5400;
+    color: rgba(255, 255, 255, 0.85);
+  }
+  .active {
+    background-color: #ff5400 !important;
+  }
+}
+.slick-slider {
+  button {
+    display: none !important;
+  }
+}

@@ -1,0 +1,235 @@
+.header {
+  &__info {
+    padding-top: 28px;
+    height: 59px;
+    width: 100%;
+    // float: right;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    a {
+      color: #fff;
+    }
+    &__phone {
+      @extend %font-top;
+      margin-right: 15px;
+      a {
+        display: inline;
+      }
+    }
+    &__opentime {
+      @extend %font-top;
+    }
+  }
+  &__container {
+    height: 70px;
+    position: relative;
+    z-index: 1000;
+  }
+  &__logo {
+    position: absolute;
+    z-index: 1;
+    top: -60px;
+  }
+  &__nav {
+    height: 70px;
+    .nav {
+      padding-top: 15px;
+    }
+    li > a,
+    p {
+      font-size: 18px;
+      background: transparent;
+      font-weight: 400;
+      line-height: 30px;
+      text-transform: uppercase;
+      padding-bottom: 2px;
+      color: #ffffff;
+      padding-left: 0px;
+      padding-right: 0px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    li > a:hover {
+      color: #ff5400;
+      border-bottom: 2px solid #ff5400;
+    }
+    li > p:hover {
+      color: #ff5400;
+      border-bottom: 2px solid #ff5400;
+    }
+    a:hover {
+      outline: none;
+      text-decoration: none;
+    }
+    &__left {
+      float: left;
+      left: 200px;
+      position: absolute;
+    }
+    &__right {
+      float: right;
+      li > a {
+        color: #7e8eaa;
+        font-size: 14px;
+        z-index: 999;
+      }
+    }
+  }
+  &__dropdown-menu {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 2px 4px #fff;
+    padding: 10px;
+    background: #0e1d2f;
+    a {
+      color: #7e8eaa;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+      display: block;
+    }
+  }
+  &__dropdown:hover > p {
+    color: #ff5400;
+    border-bottom: 2px solid #ff5400;
+  }
+  &__dropdown:hover &__dropdown-menu {
+    display: block;
+    border-top: 1px solid #7e8eaa;
+  }
+  &__dropdown-menu a:hover {
+    color: #ff5400;
+  }
+}
+.topbar {
+  position: relative;
+  background-color: $color-black;
+  padding: 10px 0;
+
+  &__flex {
+    @include flex($wrap: nowrap);
+  }
+
+  &__search {
+    &--form {
+      position: relative;
+    }
+
+    ul {
+      position: absolute;
+      top: 100%;
+      width: 400px;
+      height: 300px;
+      border: 1px solid $bg-main;
+      background-color: $color-search;
+      overflow: scroll;
+      z-index: 999;
+
+      li {
+        @include mt-mb(5px, 0);
+
+        &:last-child {
+          @include mt-mb(5px, 5px);
+        }
+
+        a {
+          display: flex;
+          align-items: center;
+
+          img {
+            height: 80px;
+            @include ml-mr(15px, 0);
+          }
+
+          p {
+            @include ml-mr(15px, 0);
+          }
+        }
+      }
+    }
+
+    button {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      top: 0;
+      right: 0;
+      padding: 0;
+      position: absolute;
+
+      i {
+        color: $color-white;
+      }
+    }
+
+    input {
+      width: 100%;
+      min-width: 250px;
+      border-radius: 25px;
+      padding: 0 40px 0 15px;
+    }
+  }
+
+  &__dkris {
+    display: flex;
+  }
+
+  &__language {
+    display: flex;
+    margin-left: 20px;
+
+    button {
+      padding: 0 10px;
+      font-size: $font-size-medium;
+      color: $color-white;
+      background-color: transparent;
+      position: relative;
+      &:after {
+        content: "";
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+        width: 1px;
+        height: 20px;
+        background-color: $bg-white;
+        position: absolute;
+      }
+      &:last-child:after {
+        display: none;
+      }
+      &:first-child {
+        border: none;
+      }
+      &:hover {
+        color: $color-main;
+      }
+    }
+
+    .active {
+      color: $color-main;
+    }
+  }
+
+  &__lr {
+    display: flex;
+    a {
+      font-size: 16px;
+      color: $color-white;
+      padding: 10px 20px;
+      position: relative;
+      border-radius: 36px;
+      margin-left: 15px;
+      border: 1px solid $color-white;
+
+      i {
+        margin-right: 10px;
+      }
+
+      &:hover {
+        color: $color-white;
+        background-color: $bg-main;
+        border: 1px solid $bg-main;
+      }
+    }
+  }
+}

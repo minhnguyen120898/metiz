@@ -1,0 +1,32 @@
+.slide-bar {
+    min-height: 100vh;
+    margin-top: 20px;
+    padding-left: 0;
+    &__main {
+        background: rgba(255, 255, 255, 0);
+        border: 1px solid  #ff5400;
+    }
+    ul {
+        li {
+            padding: 7px 10px;
+            border-top: 1px #e5e5e5 solid;
+        }
+        li > a{
+            color: #0e1d2f;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        li:hover {
+            background-color: #ff5400;
+        }
+        .active {
+            background-color: #ff5400;
+            a {
+                color: #ffffff;
+            }
+        }
+    }
+}

@@ -1,0 +1,156 @@
+{
+     "admin": {
+          "usersManagement": "Quản lý tài khoản",
+          "moviesManagement": "Quản lý phim",
+          "revenueManagement": "Quản lý doanh thu",
+          "ticketsManagement": "Quản lý vé",
+
+          "addUser": "Thêm tài khoản",
+          "editUser": "Sửa tài khoản",
+          "addMovie": "Thêm phim",
+          "editMovie": "Sửa phim",
+
+          "id": "Id",
+          "name": "Tên",
+          "email": "Email",
+          "password": "Mật khẩu",
+          "phone": "Số điện thoại",
+          "region": "Khu vực",
+          "birthday": "Ngày sinh",
+          "gender": "Giới tính",
+          "action": "Hành động",
+          "image": "Hình ảnh",
+          "ratings": "Xếp hạng",
+          "time": "Thời lượng",
+          "producer": "Nhà sản xuất",
+          "type": "Thể loại",
+          "actor": "Diễn viên",
+          "releaseDate": "Ngày công chiếu",
+          "dayBuy": "Ngày mua",
+          "movieMoney": "Tiền phim",
+          "movieFood": "Tiền thức ăn",
+          "total": "Tổng",
+          "movieName": "Tên phim",
+          "movieCinema": "Tên rạp",
+          "timeSet": "Thời gian đặt",
+          "edit": "Sửa",
+          "remove": "Xóa",
+
+          "confirmUser": "Bạn có chắc muốn xóa tài khoản này?",
+          "confirmMovie": "Bạn có chắc muốn xóa phim này?",
+          "confirmTicket": "Bạn có chắc muốn xóa vé này?",
+
+          "male": "Nam",
+          "female": "Nữ",
+
+          "hcm": "Hồ Chí Minh",
+          "hn": "Hà Nội",
+          "dn": "Đà Nẵng"
+     },
+     "authentication": {
+          "login": "Đăng nhập",
+          "register": "Đăng ký",
+          "logout": "Đăng Xuất",
+          "retry": "Thử lại"
+     },
+     "topbar": {
+          "opendoor": "Giờ mở cửa 8:00 - 22:00"
+     },
+     "navbar": {
+          "showtimes": "Lịch chiếu",
+          "movies": "Phim",
+          "thecinema": "Rạp",
+          "sale": "Khuyến mãi",
+          "member": "Thành viên",
+          "login": "Đăng nhập",
+          "registration": "Đăng ký",
+          "person": "Cá nhân",
+          "logout": "Đăng xuất"
+     },
+     "sale": {
+          "promotion": "Khuyến mãi & ưu đãi",
+          "info": "Khám phá ngay hàng trăm lợi ích dành cho bạn trong chuyên mục Khuyến mãi & Ưu đãi hấp dẫn của Metiz Cinema.",
+          "promotion-atr": "Khuyến mãi hấp dẫn",
+          "see": "Xem nhiều hơn",
+          "detail": "Xem phim metiz rước lồng đèn xinh",
+          "btn": "Chi tiết"
+     },
+     "footer": {
+          "title": "Thông tin chung",
+          "introduce": "Giới thiệu",
+          "recruit": "Tuyển dụng",
+          "contact": "Liên hệ",
+          "rules": "Điều khoản",
+          "question": "Câu hỏi thường gặp",
+          "transac-terms": "Điều khoản giao dịch",
+          "address": "Tầng 1 Helio Center, Đường 2/9, Hải Châu, Đà Nẵng"
+     },
+      "breadcrumbs": {
+          "home": "Trang chủ",
+          "listMovie": "Danh sách phim",
+          "listDetails": "Chi tiết phim",
+          "buyTicket": "Chọn vé",
+          "chooseSeat": "Chọn ghế",
+          "pays": "Thanh toán"
+     },
+
+     "movieDetail": {
+          "minutes": "Phút",
+          "releaseDate": "Ngày phát hành",
+          "genre": "Thể loại",
+          "actor": "Diễn viên",
+          "director": "Đạo diễn",
+          "title": "Thời gian chiếu",
+          "continue": "Tiếp tục",
+          "pleaseChoose": "Xin chọn khung giờ",
+          "trailer": "Giới thiệu tóm tắt"
+     },
+     "titleBooking": {
+          "chooseTiketFood": "CHỌN VÉ / MÓN ĂN",
+          "chooseSeats": "CHỌN GHẾ",
+          "choosePays": "VUI LÒNG THANH TOÁN"
+     },
+     "buyTicket": {
+          "cinema": "Rạp:",
+          "screening": "Suất chiếu:",
+          "date": "Thời gian:",
+          "combo": "Combo:",
+          "seat": "Ghế:",
+          "total": "Tổng:",
+          "time": "Khung giờ:"
+     },
+     "button": {
+          "back": "Quay lại",
+          "pay": "Thanh Toán",
+          "continue": "Tiếp tục"
+     },
+     "pays": {
+          "payments": "Thanh toán:",
+          "fullName": "Họ & tên:",
+          "email": "Email:",
+          "phone": "Số điện thoại:",
+          "cash": "Tiền mặt",
+          "card": "ZaloPay - ATM Card/Visa/Master",
+          "pleaseChoose": "Xin chọn hình thức thanh toán",
+          "success": "Thanh toán thành công"
+     },
+     "chooseSeat": {
+          "screen": "Màn hình",
+          "selected": "Ghế đang chọn",
+          "sold": "Ghế đã bán",
+          "choose": "Có thể chọn",
+          "notchoose": "Không thể chọn",
+          "pleaseChoose": "Xin chọn ghế"
+     },
+     "chooseTiket": {
+          "ticketType": "Loại Vé",
+          "combo": "Combo",
+          "number": "Số lượng",
+          "price": "Giá (VNĐ)",
+          "totalItem": "Tổng (VNĐ)",
+          "totalAllItems": "Tổng",
+          "adults": "Người lớn",
+          "ticket2D": "Vé 2D",
+          "pleaseChoose": "Xin chọn vé"
+     }
+}

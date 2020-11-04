@@ -1,0 +1,21 @@
+.header-topBar {
+    min-width: 320px;
+    min-height: 100%;
+    margin: 0 auto;
+    background: #0f1d2f;
+    display: flex;
+    padding: 0 70px;
+    justify-content: space-between;
+    &__nav {
+        align-items: center;
+        margin-right: 30px;
+        padding: 10px;
+        li {
+            margin-right: 10px;
+            a {
+                font-size: 16px;
+                color: orange;
+            }
+        }
+    }
+}

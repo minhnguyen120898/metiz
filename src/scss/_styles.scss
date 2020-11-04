@@ -1,0 +1,33 @@
+//Base
+@import "./base/variables";
+@import "./base/global";
+@import "./base/mixins";
+@import "./base/placeholders";
+
+//Layouts
+@import "./layouts/footer";
+@import "./layouts/header";
+@import "./layouts/news.scss";
+@import "./layouts/product";
+@import "./layouts/slider";
+@import "./layouts/breadcrumbs";
+@import "./layouts/cinema";
+@import "./layouts/listMovies";
+@import "./layouts/admin";
+@import "./layouts/headerTopbar";
+@import "./layouts/sidebar.scss";
+@import "./layouts/add";
+//Pages
+@import "./pages/_home.scss";
+@import "./pages/movie-detail";
+@import "./pages/movie-list";
+@import "./pages/choose-ticket";
+@import "./pages/choose-seat";
+
+@import "./pages/pays";
+@import "./pages/register";
+@import "./pages/error404";
+@import "./pages/details";
+@import "./pages/login";
+@import "./pages/profile";
+@import "./pages/sale-details";

@@ -35,7 +35,7 @@ const ShowTime = () => {
     if (token) {
       const local = JSON.parse(localStorage.getItem("token"));
       console.log(local.email);
-      localStorage.setItem("email", local);
+      localStorage.setItem("email", local.email);
     }
 
     if (index !== -1) {

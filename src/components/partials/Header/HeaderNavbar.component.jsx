@@ -5,7 +5,8 @@ import { Link, Redirect} from 'react-router-dom';
 const HeaderNavbar = () => {
     const { t } = useTranslation("common");
     const handleLogout = () => {
-        localStorage.removeItem("token");
+        localStorage.clear();
+
         return <Redirect to="/" />;
     }
      return (

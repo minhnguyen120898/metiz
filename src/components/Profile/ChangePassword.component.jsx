@@ -58,7 +58,7 @@ const ChangePassword = () => {
                     <ul className="profile__left__list">             
                         <li><Link to="/profile">Thông tin tài khoản</Link></li>
                         <li className="active"><Link to="/changepassword">Thay đổi mật khẩu</Link></li>
-                        <li>Lịch sử giao dịch</li>
+                        <li><Link to="/transaction">Lịch sử giao dịch</Link></li>
                     </ul>
                 </div>
                 <div className="profile__right">

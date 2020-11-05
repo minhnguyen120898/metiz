@@ -90,8 +90,17 @@
           "listMovie": "Danh sách phim",
           "listDetails": "Chi tiết phim",
           "buyTicket": "Chọn vé",
-          "chooseSeat": "Chọn ghế",
+          "chooseSeats": "Chọn ghế",
           "pays": "Thanh toán"
+     },
+
+     "listMovies" : {
+          "type" : "Thể loại",
+          "minutes" : "Phút",
+          "premiere" : "Khởi chiếu",
+          "showing" : "Phim đang chiếu",
+          "coming" : "Phim sắp chiếu",
+          "search" : "Tìm kiếm"
      },
 
      "movieDetail": {

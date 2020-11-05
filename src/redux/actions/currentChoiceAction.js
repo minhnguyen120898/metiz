@@ -71,7 +71,7 @@ export const getRemoveCombo1 = (data) => {
 export const getRemoveCombo2 = (data) => {
      return {
           type: "GET_REMOVE_COMBO2",
-          value:data
+          value: data
      }
 }
 

@@ -96,6 +96,15 @@
           "pays": "Pay"
      },
 
+     "listMovies" : {
+          "type" : "Type",
+          "minutes" : "Minutes",
+          "premiere" : "Premiere",
+          "showing" : "Showing Movies",
+          "coming" : "Coming Movies",
+          "search" : "Search"
+     },
+
      "movieDetail": {
           "minutes": "Minutes",
           "releaseDate": "Release Date",

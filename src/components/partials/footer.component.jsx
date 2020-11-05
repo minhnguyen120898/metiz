@@ -33,7 +33,7 @@ const Footer = () => {
                         {t("footer.address")}
                         </h3>
                     </div>
-                    <div className="col-12 col-sm-4">
+                    <div className="col-12 col-sm-4 pl-5">
                         <h2>METIZ CINEMA</h2>
                         <ul className="list">
                             <li><a href="./">{t("footer.recruit")}</a></li>
@@ -41,7 +41,7 @@ const Footer = () => {
                             <li><a href="./">{t("footer.contact")}</a></li>
                         </ul>
                     </div>
-                    <div className="col-12 col-sm-4">
+                    <div className="col-12 col-sm-4 pl-5">
                         <h2>{t("footer.title")}</h2>
                         <ul className="list">
                             <li><a href="./">{t("footer.rules")}</a></li>

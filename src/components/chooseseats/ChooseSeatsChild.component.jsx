@@ -22,8 +22,7 @@ const ChooseSeatsChild = () => {
   const dispatch = useDispatch();
   const location = useLocation();
 
-  // const { seats, loading, error } = useSelector((state) => state.seats);
-  const { cinemas, loading, error } = useSelector((state) => state.cinemas);
+  const { seats, loading, error } = useSelector((state) => state.seats);
   const { currentChooseSeat, choosedSeat } = useSelector(
     (state) => state.currentChoose
   );
@@ -44,14 +43,29 @@ const ChooseSeatsChild = () => {
   useEffect(() => {
     async function getAllTickets() {
       const allTickets = await Axios.get(`http://localhost:3333/tickets`);
-      
+
       const allSeat = [];
-      allTickets.data.forEach((el) => el.seat.forEach((e) => allSeat.push(e)));
+      allTickets.data.filter(e => checkDate(e.timeSet,e.movieTime,e.movieName))
+      .forEach((el) => el.seat.forEach((e) => allSeat.push(e)));
       console.log(allTickets.data);
+
       dispatch(getChoosedSeat(allSeat));
     }
     getAllTickets();
   }, [dispatch]);
+
+  const checkDate = (timeSet,movieTime,movieName) => {
+    let dateObj = new Date();
+    let month = dateObj.getUTCMonth() + 1;
+    let day = dateObj.getUTCDate();
+    let year = dateObj.getUTCFullYear();
+
+    let newdate = day + "-" + month + "-" + year;
+    let newTime = localStorage.getItem("movieTime");
+
+    let newMovie = localStorage.getItem("movieName");
+    return newdate === timeSet && newTime === movieTime && newMovie === movieName;
+  }
 
   const handleChooseSeat = (seat) => {
     dispatch(getCurrentChooseSeat(seat.codeSeat));
@@ -84,34 +98,31 @@ const ChooseSeatsChild = () => {
                     ) : error ? (
                       <p>{error.message}</p>
                     ) : (
-                      cinemas.map((e) => (
-                        e.session.map((el) => (
-                          el.seats.map((ul, id) => (
-                            <button
-                              key={id}
+                      seats.map((e, i) => (
+                        <button
+                              key={i}
                               className={
                                 choosedSeat &&
-                                choosedSeat.findIndex((c) => c === ul.codeSeat) !==
+                                choosedSeat.findIndex((c) => c === e.codeSeat) !==
                                   -1
                                   ? "choosed"
                                   : currentChooseSeat.findIndex(
-                                      (s) => s === ul.codeSeat
+                                      (s) => s === e.codeSeat
                                     ) !== -1
                                   ? "active"
                                   : ""
                               }
                               disabled={
                                 choosedSeat &&
-                                choosedSeat.findIndex((c) => c === ul.codeSeat) !==
+                                choosedSeat.findIndex((c) => c === e.codeSeat) !==
                                   -1
                               }
-                              onClick={() => handleChooseSeat(ul)}
+                              onClick={() => handleChooseSeat(e)}
                             >
-                              {ul.codeSeat}
+                              {e.codeSeat}
                             </button>
-                          ))
-                        ))
                       ))
+                      
                     )}
                   </div>
                   <div className="screen">{t("chooseSeat.screen")}</div>

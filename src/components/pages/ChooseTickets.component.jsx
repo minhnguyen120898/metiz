@@ -7,7 +7,7 @@ const ChooseTickets = () => {
   return (
     <div className="wrapper">
       <Header />
-      <div  className="bg-movies">
+      <div className="bg-movies">
         <ChooseTicketChild />
       </div>
       

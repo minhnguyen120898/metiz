@@ -87,10 +87,10 @@ const currentChooseReducer = (state = initialState, action) => {
                }
           }
           case "GET_REMOVE_COMBO2": {
-               if (action.value <= 0) {
+               if (state.currentCombo2 <= 0) {
                     state.currentCombo2 = 0;
                } else {
-                    state.currentCombo2 = action.value;
+                    state.currentCombo2 = parseInt(state.currentCombo2) - 1;;
                }
                state.totalCombo2 = state.combo2Price * state.currentCombo2;
                localStorage.setItem("totalCombo2", state.totalCombo2);

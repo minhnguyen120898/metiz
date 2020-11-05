@@ -89,10 +89,28 @@
       "name": "admin",
       "email": "admin@gmail.com",
       "phone": "123456789",
-      "address": "qn",
+      "address": "quang nam",
       "gender": "male",
       "password": "MTIz",
       "id": 10
+    },
+    {
+      "name": "minh123",
+      "email": "minh1234@gmail.com",
+      "phone": "0123",
+      "address": "123",
+      "gender": "male",
+      "password": "MTIz",
+      "id": 11
+    },
+    {
+      "name": "Thuy Diem",
+      "email": "thdiem2611@gmail.com",
+      "phone": "0123456789",
+      "address": "abc",
+      "gender": "female",
+      "password": "ZGllbTEyMw==",
+      "id": 12
     }
   ],
   "products": [
@@ -1215,6 +1233,54 @@
       "totalCombo2": 0,
       "email": "nguyenvandxx@gmail.com",
       "id": 1
+    },
+    {
+      "payment": "cash",
+      "timeSet": "5-11-2020",
+      "movieName": "Xứ sở phép thuật",
+      "movieCinema": "Metiz Tân Phú",
+      "movieTime": "20:00",
+      "movieImage": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
+      "seat": [
+        "A16"
+      ],
+      "totalTicket": 45000,
+      "totalCombo1": 77000,
+      "totalCombo2": null,
+      "email": "\"thdiem2611@gmail.com\"",
+      "id": 6
+    },
+    {
+      "payment": "cash",
+      "timeSet": "5-11-2020",
+      "movieName": "Tí hon hậu đậu",
+      "movieCinema": "Metiz Tân Phú",
+      "movieTime": "20:00",
+      "movieImage": "https://metiz.vn/media/poster_film/ti-hon-hau-dau-poster.jpg",
+      "seat": [
+        "A19"
+      ],
+      "totalTicket": 45000,
+      "totalCombo1": 77000,
+      "totalCombo2": 99000,
+      "email": "thdiem2611@gmail.com",
+      "id": 7
+    },
+    {
+      "payment": "cash",
+      "timeSet": "5-11-2020",
+      "movieName": "Chiến binh hồi sinh",
+      "movieCinema": "Metiz Tân Phú",
+      "movieTime": "20:00",
+      "movieImage": "https://metiz.vn/media/poster_film/rsz_the_doorman_-_payoff_poster_-_16102020.jpg",
+      "seat": [
+        "A20"
+      ],
+      "totalTicket": 45000,
+      "totalCombo1": 0,
+      "totalCombo2": 0,
+      "email": "thdiem2611@gmail.com",
+      "id": 8
     }
   ]
 }

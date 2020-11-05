@@ -11,6 +11,7 @@ import registerReducer from './reducers/registerReducer';
 import loginReducer from './reducers/loginReducer';
 import moviesReducer from './reducers/adminMovieReducer';
 import adminReducer from './reducers/adminUserReducer';
+import ticketReducer from './reducers/ticketsReducer';
 
 
 const rootReducer = combineReducers({
@@ -26,6 +27,7 @@ const rootReducer = combineReducers({
     login: loginReducer,
     admin : adminReducer,
     adminMovie : moviesReducer,
+    ticketClient : ticketReducer,
 })
 
 export default rootReducer;

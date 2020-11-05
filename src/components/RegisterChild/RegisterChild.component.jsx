@@ -55,7 +55,6 @@ const RegisterChild = () => {
             <div className="register">
                 <Alert show={showAlert} variant="success">
                     <p>Đăng ký thành công!</p>
-                    <button onClick={() => setShowAlert(false)}>Đóng</button>
                 </Alert>
                 <p className="register__title">Đăng ký</p>
                 <form onSubmit={ onSubmit }>

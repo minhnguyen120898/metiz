@@ -1,6 +1,6 @@
 
 const initialState = {
-    status: false
+    status: true
 };
 
 const i18Reducer = (state = initialState, action) => {

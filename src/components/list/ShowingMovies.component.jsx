@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { checkShowingProduct } from '../../common/filterProducts';
@@ -6,6 +7,7 @@ import { fetchProducts,fetchProductsBegin, getSearch } from '../../redux/actions
 
 const ShowingMovies = () => {
 
+    const { t } = useTranslation("common"); 
     const { products, loading, error, searchValue } = useSelector(state => state.product);
     const dispatch = useDispatch();
 
@@ -23,9 +25,9 @@ const ShowingMovies = () => {
     return (
         <div className="container">
             <div className="listMovies__top">
-                <h1 className="listMovies__title">Phim đang chiếu</h1>
+                <h1 className="listMovies__title">{t("listMovies.coming")}</h1>
                 <div className="listMovies__search">
-                    <label htmlFor="">Tìm Kiếm:</label>
+                    <label htmlFor="">{t("listMovies.search")}</label>
                     <input    
                         placeholder="Tìm kiếm phim ở đây"
                         
@@ -46,9 +48,9 @@ const ShowingMovies = () => {
                                 <img src={e.image} alt="imgMovies"/>
                             </Link> 
                             <p className="listMovies__name">{e.name}</p>
-                            <p className="listMovies__type">Thể loại: {e.type}</p>
-                            <p className="listMovies__time">{e.time} phút</p>
-                            <p className="listMovies__premiere">Khởi chiếu: {e.releaseDate}</p>
+                            <p className="listMovies__type">{t("listMovies.type")}: {e.type}</p>
+                            <p className="listMovies__time">{e.time} {t("listMovies.minutes")}</p>
+                            <p className="listMovies__premiere">{t("listMovies.premiere")}: {e.releaseDate}</p>
                         </div>                       
                     ))                   
                 )}

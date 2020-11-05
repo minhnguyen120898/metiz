@@ -18,6 +18,7 @@ import Edit from './components/admin/editUser'
 import MovieManagement from './components/pages/movieManagement.component'
 import EditMovie from './components/admin/editMovie'
 import AddMovie from './components/admin/addMovie'
+import Transaction from './components/Profile/TransactionHistory.component'
 const routers = [
      {
           path: "/sale",
@@ -83,6 +84,11 @@ const routers = [
           path: "/changepassword",
           exact: true,
           main: () => <ChangePassword />
+     },
+     {
+          path: "/transaction",
+          exact: true,
+          main: () => <Transaction />
      },
      {
         path: '/admin/users',

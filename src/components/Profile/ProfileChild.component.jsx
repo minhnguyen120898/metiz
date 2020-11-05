@@ -36,7 +36,7 @@ const ProfileChild = () => {
                     <ul className="profile__left__list">             
                         <li className="active">Thông tin tài khoản</li>
                         <li><Link to="/changepassword">Thay đổi mật khẩu</Link></li>
-                        <li>Lịch sử giao dịch</li>
+                        <li><Link to="/transaction">Lịch sử giao dịch</Link></li>
                     </ul>
                 </div>
                 <div className="profile__right">

@@ -42,7 +42,7 @@
     input[type=radio] {
         margin-right: 7px;
     }
-    input:focus {
+    input:focus,select:focus {
         outline: none;
         border: 1px solid #7e8eaa;
         box-shadow: 1px 1px 2px #7e8eaa;
@@ -53,5 +53,12 @@
     }
     select {
         display: block;
+        width: 80%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        color: black;
+        height: 30px;
+        line-height: 30px;
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
     }
 }

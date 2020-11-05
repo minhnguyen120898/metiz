@@ -63,12 +63,6 @@ const moviesReducer = (state = initialState, action) => {
                 type : action.data,
             }
         }
-        case "GET_IMAGE" : {
-            return {
-                ...state,
-                image : action.image,
-            }
-        }
          case "GET_ACTOR" : {
             return {
                 ...state,
